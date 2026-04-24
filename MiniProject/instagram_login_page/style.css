@@ -1,0 +1,87 @@
+#head{
+    background-color: aquamarine; 
+}
+#logo{
+    width:50px;
+    height:50px;
+}
+#main{
+    place-items: center;
+}  
+#language{
+    /* width:150px; */
+    height:30px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgb(164, 157, 157);
+}
+h1{
+    font-family: 'san francisco pro';
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    color:grey;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 320px;
+    height: 40px;
+    border: none;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#first{
+    color: rgb(100, 97, 97);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#link1{
+    text-decoration:none;
+    color: rgb(14, 47, 82);
+}
+.or{
+    text-align: center;
+    color: rgb(100, 97, 97);
+    display: flex; /* to align items in a row */
+    align-items: center;
+    margin: 20px 0
+}
+.or hr{
+    flex: 1; /* to make the hr take equal space */
+    border: none;
+    height: 1px;
+    background-color: rgb(200, 197, 197);
+}
+.or span{
+    margin: 0 10px;  /* top= 0, bottom=0, left=10px, right=10px */
+}
+#next{
+    color:rgb(0, 0, 255);
+    place-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+#form1{
+    place-items: center;
+    display: grid;
+    margin: 1px;
+    /* place-items: center; */
+    /* display: grid; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* align-content: stretch; */
+    /* justify-content: space-around; */
+}
